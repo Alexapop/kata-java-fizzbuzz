@@ -1,9 +1,13 @@
 # Kata FizzBuzz Java
 
 ## Requiered
-- JDK 11
+- JDK 21
 - JUnit
 - Maven
+
+## Dependencies
+- Hamcrest
+- JUnit 5
 
 ### Exercise
 
