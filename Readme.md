@@ -1,30 +1,44 @@
-# Kata FizzBuzz Java
+# FizzBuzz Kata in Java
 
-## Requiered
+## Description
+
+This project is a programming kata that is part of the **Factoría F5** bootcamp.
+
+The program must evaluate the numbers from 1 to 100 and return the corresponding result according to the following rules:
+
+### Stage 1
+
+- Return `Fizz` if the number is divisible by 3.
+- Return `Buzz` if the number is divisible by 5.
+- Return `FizzBuzz` if the number is divisible by both 3 and 5.
+- Return the number itself if none of the previous conditions are met.
+
+### Stage 2
+
+- Return `Fizz` if the number is divisible by 3 or contains a `3`. For example, `534` returns `Fizz`.
+- Return `Buzz` if the number is divisible by 5 or contains a `5`. For example, `25` returns `Buzz`.
+- When both the `Fizz` and `Buzz` conditions are met, return `FizzBuzz`.
+
+## Technical requirements
+
 - JDK 21
-- JUnit
 - Maven
-
-## Dependencies
-- Hamcrest
 - JUnit 5
+- Hamcrest
 
-### Exercise
+## Deliverables
 
-<strong>Escribe un programa que imprima los números del 1 al 100:</strong>
+The `FizzBuzz` class must be properly tested, all scenarios must be covered, and the test coverage must be visible.
 
-Aplica las siguientes normas:
+![Unit tests]()
+![Test coverage ]()
 
-Etapa 1:
+## Class diagram
 
-- Devuelve Fizz si el número es divisible por 3.
-- Devuelve Buzz si el número es divisible por 5.
-- Devuelve FizzBuzz si el número es divisible por 3 y por 5.
-- Devuelve el mismo número si no se cumple nada de lo anterior.
+```mermaid
+classDiagram
+    class FizzBuzz {
+        +convert(number: int) String
+    }
+```
 
-Nuevos requerimientos:
-
-Etapa 2
-
-- Devuelve Fizz si el número es divisible por 3 o si contiene un 3. (Ej.: Fizz si el número es 534)
-- Devuelve Buzz si el número es divisible por 5 o si contiene un 5. (Ej.: Buzz si el número es 25).
