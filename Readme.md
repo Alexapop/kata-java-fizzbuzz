@@ -15,8 +15,8 @@ The program must evaluate the numbers from 1 to 100 and return the corresponding
 
 ### Stage 2
 
-- Return `Fizz` if the number is divisible by 3 or contains a `3`. For example, `534` returns `Fizz`.
-- Return `Buzz` if the number is divisible by 5 or contains a `5`. For example, `25` returns `Buzz`.
+- Return `Fizz` if the number is divisible by 3 or contains a `3`. 
+- Return `Buzz` if the number is divisible by 5 or contains a `5`.
 - When both the `Fizz` and `Buzz` conditions are met, return `FizzBuzz`.
 
 ## Technical requirements
@@ -30,8 +30,8 @@ The program must evaluate the numbers from 1 to 100 and return the corresponding
 
 The `FizzBuzz` class must be properly tested, all scenarios must be covered, and the test coverage must be visible.
 
-![Unit tests]()
-![Test coverage ]()
+![Unit tests](./src/test/unit-tests.jpg)
+![Test coverage](./src/test/coverage-tests.jpg)
 
 ## Class diagram
 
