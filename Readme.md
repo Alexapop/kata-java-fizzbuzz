@@ -29,11 +29,16 @@ The program must evaluate the numbers from 1 to 100 and return the corresponding
 ## Deliverables
 
 The `FizzBuzz` class must be properly tested, all scenarios must be covered, and the test coverage must be visible.
-
+### Unit tests
 ![Unit tests](./src/test/unit-tests.jpg)
+
+
+
+
+ ### Coverage report
 ![Test coverage](./src/test/coverage-tests.jpg)
 
-## Class diagram
+### Class diagram
 
 ```mermaid
 classDiagram
