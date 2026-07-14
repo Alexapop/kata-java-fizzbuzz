@@ -47,3 +47,6 @@ classDiagram
     }
 ```
 
+### FizzBuzz output
+
+The results generated for the numbers from 1 to 100 are available in [fizzbuzz-output.txt](./fizzbuzz-output.txt).
